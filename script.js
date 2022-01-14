@@ -13,12 +13,6 @@ const compareGuesses = (humanGuess, computerGuess, targetGuess) => {
   return humanDifference <= computerDifference;
   }
 
-const updateScore = (winner) => {
-  if (winner == 'human') {
-    humanScore++;
-  }else if (winner == 'computer') {
-    computerScore++;
-  }
-}
+
 
 const advanceRound = () => currentRoundNumber++;
